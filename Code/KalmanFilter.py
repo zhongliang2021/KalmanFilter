@@ -41,14 +41,14 @@ def KalmanFilter(z, n_iter=20):
 
 
 #设置Excel文件夹的路径
-filePath = r"D:\deeplearning\Rawdata"
+filePath = r"D:\Code\Rawdata"
 #获取文件夹下的所有文件名称
 nameList = os.listdir(filePath)
 
 
 for i in nameList:
     #使用pandas中的read_excel函数读取文件 我这里只读取一行数据 nrows=n的含义为读取第n行数据(注意不是读取前n数据)
-    temp = pd.read_excel(r"D:\\Code\\电压数据重量\\" + i, index_col=0)
+    temp = pd.read_excel(r"D:\\Code\\Rawdata\\" + i, index_col=0)
     print("表格名：")
     print(i)  # 文件名
     print('表格内容:')
