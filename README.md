@@ -1,2 +1,2 @@
 # KalmanFilter
-This code use KalmanFilter to avoid interfere from environment
+This code uses KalmanFilter to reduce noise from the environment
